@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  comp11025sworkspace:
+    image: comp11025sworkspace
+    build:
+      context: .
+      dockerfile: ./Dockerfile
